@@ -319,7 +319,7 @@ function GeneratingScreen({ profile, onReady }) {
     <div style={{ minHeight: "100dvh", background: T.cream, fontFamily: "Georgia,serif", maxWidth: 480, margin: "0 auto", color: T.ink, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", padding: "40px 28px", textAlign: "center" }}>
       <div style={{ background: T.mossL, color: T.moss, fontSize: "11px", fontWeight: "500", padding: "4px 14px", borderRadius: "20px", letterSpacing: "0.08em", marginBottom: "24px" }}>IA TRABALHANDO</div>
 
-      <div style={{ width: 80, height: 80, margin: "0 auto 20px", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div style={{ width: 80, height: 80, margin: "0 auto 20px", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", display: "flex", alignItems: "center", justifyContent: "center", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <svg width="80" height="80" viewBox="0 0 80 80" style={{ transform: "rotate(-90deg)", position: "absolute" }}>
           <circle cx="40" cy="40" r="34" fill="none" stroke={T.creamM} strokeWidth="3" />
           <circle cx="40" cy="40" r="34" fill="none" stroke={T.moss} strokeWidth="3"
