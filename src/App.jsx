@@ -319,7 +319,7 @@ function GeneratingScreen({ profile, onReady }) {
     <div style={{ minHeight: "100dvh", background: T.cream, fontFamily: "Georgia,serif", maxWidth: 480, margin: "0 auto", color: T.ink, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", padding: "40px 28px", textAlign: "center" }}>
       <div style={{ background: T.mossL, color: T.moss, fontSize: "11px", fontWeight: "500", padding: "4px 14px", borderRadius: "20px", letterSpacing: "0.08em", marginBottom: "24px" }}>IA TRABALHANDO</div>
 
-      <div style={{ width: 80, height: 80, margin: "0 auto 20px", position: "relative" }}>
+      <div style={{ width: 80, height: 80, margin: "0 auto 20px", position: "relative", display: "flex", alignItems: "center", justifyContent: "center", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <svg width="80" height="80" viewBox="0 0 80 80" style={{ transform: "rotate(-90deg)", position: "absolute" }}>
           <circle cx="40" cy="40" r="34" fill="none" stroke={T.creamM} strokeWidth="3" />
           <circle cx="40" cy="40" r="34" fill="none" stroke={T.moss} strokeWidth="3"
@@ -328,7 +328,7 @@ function GeneratingScreen({ profile, onReady }) {
             style={{ transition: "stroke-dasharray 0.8s ease" }}
           />
         </svg>
-        <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", fontSize: "24px" }}>🌱</div>
+        <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, display: "flex", alignItems: "center", justifyContent: "center", fontSize: "24px", lineHeight: 1, zIndex: 1 }}>🌱</div>
       </div>
 
       <h2 style={{ margin: "0 0 6px", fontSize: "20px", fontWeight: "500", color: T.ink, letterSpacing: "-0.3px" }}>Criando seu plano</h2>
